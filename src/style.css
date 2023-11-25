@@ -1,0 +1,25 @@
+
+ul {
+    list-style-type: none;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+#header > ul{
+    display: flex;
+    gap: 5rem;
+}
+#content > img {
+    width: 600px;
+    height: 400px;
+}
